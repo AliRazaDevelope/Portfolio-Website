@@ -23,10 +23,11 @@ jobs:
 
       - name: Install dependencies
         run: |
-          npm install --save-dev htmlhintrc stylelintrc
+          npm install --save-dev htmlhint stylelintrc
 
       - name: Run HTMLHint
-        run: npx htmlhintrc "**/*.html"
+        run: npx htmlhint "**/*.html"
+
 
       - name: Run Stylelint
         run: npx stylelintrc "**/*.css"
