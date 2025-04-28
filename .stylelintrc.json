@@ -1,4 +1,15 @@
 {
+  "extends": "stylelint-config-standard",
+  "rules": {
+    "color-hex-case": "lower",
+    "color-hex-length": "short",
+    "block-no-empty": true,
+    "declaration-no-important": true,
+    "selector-list-comma-newline-after": "always",
+    "max-empty-lines": 1,
+    "indentation": 2
+  }
+}
   "rules": {
     "declaration-block-no-duplicate-properties": true,
     "no-duplicate-selectors": true,
@@ -7,4 +18,3 @@
     "block-no-empty": true
   }
 }
-
